@@ -34,7 +34,7 @@ public class User {
 
     public String getEmail() { return email; }
     public void setEmail(String email) {
-        if (!email.contains("@")) {
+        if (!email.contains("@gmail.com")||!email.contains("@yahoo.com")) {
             throw new IllegalArgumentException("Invalid email");
         }
         this.email = email; }

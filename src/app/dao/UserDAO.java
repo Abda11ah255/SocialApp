@@ -54,11 +54,6 @@ public class UserDAO {
         return null; // not found
     }
 
-        public static void main(String[] args) {
-            UserDAO dao = new UserDAO();
 
-          User u= dao.findByUsername("ali");
-            System.out.println(u);
-        }
 
 }
